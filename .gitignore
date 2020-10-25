@@ -1,9 +1,1 @@
-/*
-!/.eslintrc
-!/.gitignore
-!/.npmignore
-!/gulp-html-to-js.js
-!/package.json
-!/readme.md
-!/test.js
-!/watch.js
+node_modules
