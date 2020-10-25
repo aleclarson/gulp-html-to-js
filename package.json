@@ -2,7 +2,6 @@
   "name": "gulp-html-to-js",
   "version": "0.0.7",
   "description": "Gulp plugin for converting strings to JavaScript modules",
-  "main": "gulp-html-to-js.js",
   "scripts": {
     "start": "node test.js && node watch.js",
     "test": "node test.js",
