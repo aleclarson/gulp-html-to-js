@@ -67,6 +67,8 @@ function separateTransform({global}) {
         this.push(new File({
           path: file.path + '.js',
           contents: Buffer.from(`${global} = '${escape(file.contents.toString())}'`),
+          base: file.base,
+          cwd: file.cwd,
         }))
       }
       done()
